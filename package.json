@@ -1,0 +1,22 @@
+{
+  "name": "express-restaurant",
+  "version": "1.0.0",
+  "description": "An application using an express server for displaying restaurant data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-porling/express-restaurant.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Sebastian Porling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-porling/express-restaurant/issues"
+  },
+  "homepage": "https://github.com/sebastian-porling/express-restaurant#readme"
+}
