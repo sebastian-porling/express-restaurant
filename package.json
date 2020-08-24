@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "bin.js",
   "pkg": {
-    "assets": ["./node_modules/figlet/fonts/Standard.flf", "./images/*", "./public/*", "./data"]
+    "assets": ["node_modules/figlet/fonts/Standard.flf", "images/*", "public/**/*", "data/*"]
 },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
