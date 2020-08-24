@@ -1,0 +1,57 @@
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.bg-yellow {
+    background-color: #ffdb58;
+}
+
+.hr-secondary {
+    border-top: 1px solid lightgray;
+}
+
+.checked {
+    color: orange;
+}
+
+.review-comment {
+    font-size: 0.9rem;
+}
+
+.background-img {
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -60px;
+    margin-left: -60px;
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+.reviews {
+    max-height: 15rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 2rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
