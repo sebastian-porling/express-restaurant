@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "An application using an express server for displaying restaurant data.",
   "main": "index.js",
+  "bin": "bin.js",
+  "pkg": {
+    "assets": ["./node_modules/figlet/fonts/Standard.flf", "./images/*", "./public/*", "./data"]
+},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin.js",
+    "dev": "nodemon bin.js",
+    "build": "pkg . --out-path build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/sebastian-porling/express-restaurant/issues"
   },
-  "homepage": "https://github.com/sebastian-porling/express-restaurant#readme"
+  "homepage": "https://github.com/sebastian-porling/express-restaurant#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "figlet": "^1.5.0",
+    "morgan": "^1.10.0",
+    "pkg": "^4.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
