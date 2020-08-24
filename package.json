@@ -1,6 +1,6 @@
 {
   "name": "express-restaurant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An application using an express server for displaying restaurant data.",
   "main": "index.js",
   "bin": "bin.js",
@@ -18,7 +18,11 @@
     "url": "git+https://github.com/sebastian-porling/express-restaurant.git"
   },
   "keywords": [
-    "express"
+    "express",
+    "morgan",
+    "figlet",
+    "pkg",
+    "chalk"
   ],
   "author": "Sebastian Porling",
   "license": "MIT",
