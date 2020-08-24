@@ -3,13 +3,15 @@ const { errorHandler, handler } = require("./errorHandler.js");
 const { logger } = require("./logger.js");
 const restaurants = require("../data/restaurants.json");
 const app = express();
+const path = require('path');
 
 /* register logger */
 app.use(logger);
 
 /* register static components */
-app.use(express.static("public", { extensions: ["html"] }));
-app.use("/restaurant/image", express.static("./images"));
+console.log(path.join(__dirname, "../public"))
+app.use(express.static(path.join(__dirname, "../public"), { extensions: ["html"] }));
+app.use("/restaurant/image", express.static(path.join(__dirname, "../images")));
 
 /**
  * Fetches data from the json file
