@@ -15,6 +15,11 @@ module.exports.logger = morgan((tokens, req, res) => {
     ].join(" ");
 });
 
+/**
+ * Generates an emoji to fit the status code
+ * @param code status code
+ *  @returns emoji
+ */
 const getStatusEmoji = (code) => {
     return code >= 500
         ? "⚠️"
