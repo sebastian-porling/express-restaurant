@@ -1,0 +1,285 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/porling/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 95
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 22
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: null
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Cascadia Code PL"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1731
+    content: "\e[0m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K\r\n\r\n\r\n\e[3A\e7\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m 15:06:31\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m"
+  - delay: 1527
+    content: ./build/express-restaurant-linux &
+  - delay: 347
+    content: "\e[?25l\e8\e[0m\e[49m\e[39m\e[27m\e[24m\e[J"
+  - delay: 33
+    content: "\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express\a\e]1;..works/express\a"
+  - delay: 16
+    content: "\e[0m\e[38;5;31m\e[48;5;236m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K"
+  - delay: 126
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/web_technologies_and_frameworks/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[38;5;244m\e[38;5;244mmaster\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[0m\e[30m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m  \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:31\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?12l\e[?25h\e[?2004h"
+  - delay: 9
+    content: ".\b./build/express-restaurant-linux &\e[?25l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/web_technologies_and_frameworks/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster\e[0m\e[38;5;76m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m  \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:31\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m./build/express-restaurant-linux &\e[K\e[?12l\e[?25h"
+  - delay: 155
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m ./build/express-restaurant-linux &\e[K\e[?12l\e[?25h\r\r\n\e]2;./build/express-restaurant-linux &\a\e]1;./build/express-restaurant-linux\a"
+  - delay: 143
+    content: "[1] 5380\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express\a\e]1;..works/express\a\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[38;5;244m\e[38;5;244mmaster\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[0m\e[30m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:34\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 100
+    content: "\e[?25l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster\e[0m\e[38;5;76m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:34\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?12l\e[?25h"
+  - delay: 682
+    content: "                                    \r\n   _____  ___ __  _ __ ___  ___ ___ \r\n  / _ \\ \\/ / '_ \\| '__/ _ \\/ __/ __|\r\n |  __/>  <| |_) | | |  __/\\__ \\__ \\\r\n  \\___/_/\\_\\ .__/|_|  \\___||___/___/\r\n           |_|                      \r\n                _                              _       \r\n  _ __ ___  ___| |_ __ _ _   _ _ __ __ _ _ __ | |_ ___ \r\n | '__/ _ \\/ __| __/ _` | | | | '__/ _` | '_ \\| __/ __|\r\n | | |  __/\\__ \\ || (_| | |_| | | | (_| | | | | |_\\__ \\\r\n |_|  \\___||___/\\__\\__,_|\\__,_|_|  \\__,_|_| |_|\\__|___/\r\n                                                       \r\nListening on port 3000\r\n"
+  - delay: 2685
+    content: c
+  - delay: 112
+    content: "\bcu"
+  - delay: 353
+    content: r
+  - delay: 79
+    content: l
+  - delay: 318
+    content: ' '
+  - delay: 433
+    content: h
+  - delay: 239
+    content: t
+  - delay: 142
+    content: t
+  - delay: 51
+    content: p
+  - delay: 543
+    content: ':'
+  - delay: 463
+    content: /
+  - delay: 144
+    content: /
+  - delay: 623
+    content: l
+  - delay: 174
+    content: o
+  - delay: 114
+    content: c
+  - delay: 110
+    content: a
+  - delay: 384
+    content: l
+  - delay: 323
+    content: h
+  - delay: 125
+    content: o
+  - delay: 111
+    content: s
+  - delay: 226
+    content: t
+  - delay: 544
+    content: ':'
+  - delay: 255
+    content: '3'
+  - delay: 144
+    content: '0'
+  - delay: 208
+    content: '0'
+  - delay: 945
+    content: '0'
+  - delay: 804
+    content: /
+  - delay: 428
+    content: d
+  - delay: 98
+    content: a
+  - delay: 271
+    content: t
+  - delay: 5
+    content: 'y'
+  - delay: 63
+    content: a
+  - delay: 601
+    content: "\b \b"
+  - delay: 195
+    content: "\b \b"
+  - delay: 143
+    content: a
+  - delay: 143
+    content: ' '
+  - delay: 769
+    content: '|'
+  - delay: 466
+    content: ' '
+  - delay: 429
+    content: j
+  - delay: 31
+    content: q
+  - delay: 176
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m curl http://localhost:3000/data | jq\e[K\e[?12l\e[?25h\r\r\n\e]2;curl http://localhost:3000/data | jq\a\e]1;curl\a"
+  - delay: 123
+    content: "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+  - delay: 27
+    content: "\r100  4107  100  4107    0     0   138k      0 --:--:-- --:--:-- --:--:--  143k\r\n\e[32m\e[1mGET\e[22m\e[39m ✔️  \e[31m\e[1m200\e[22m\e[39m \e[37m/data\e[39m \e[33m8.220 ms\e[39m\r\n"
+  - delay: 49
+    content: "\e[1;39m[\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Cay Tre\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"location\"\e[0m\e[1;39m: \e[0m\e[0;32m\"42-43 Dean Street Soho, London W1D 4PZ England\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"description\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Our modern Vietnamese restaurant in Soho emulates busy Vietnamese life, serving classic pho and aromatic street food.\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"image\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/restaurant/image/cay-tre.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m4\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"reviews\"\e[0m\e[1;39m: \e[0m\e[1;39m[\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Karen\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m3\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"The food was average at best the beef in the pho looked like it came out of a pre sliced supermarket packet, the rice was hard and tasted like it was stale. Complained and got 10% off my bill or 15% off my next visit I told the manager I would not be returning. If its authentic you want do not go here.\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m,\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Danny\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Went in here by chance, was just passing & I love Vietnamese food, the menu looked great & I could’ve ordered also anything. Nice decor, friendly attentive staff & I must say the food delicious. The best I’ve had outside of Shoreditch which is always my go to place in London. Will definitely visit again\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m\r\n    \e[1;39m]\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Lucknow 49\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"location\"\e[0m\e[1;39m: \e[0m\e[0;32m\"49 Maddox Street, London W1S 2PQ England\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"description\"\e[0m\e[1;39m: \e[0m\e[0;32m\"As a result of the ongoing COVID-19 pandemic, and with the welfare of our guests and staff as our primary concern, we have taken the decision to close our doors for the time being. For the meantime, we wish good luck and good health to all of our friends and neighbours and we will see you on the other side\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"image\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/restaurant/image/lucknow-49.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m3\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"reviews\"\e[0m\e[1;39m: \e[0m\e[1;39m[\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Ruby\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"We were really a large group. Arjun (manager) and other staff of the restaurant really managed well. nice food and lovely environment!!\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m,\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Gaty\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m1\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Worst Indian food I have ever had. Don’t believe the reviews that are written here as they are clearly false. The other reviews say that the food here is authentic and the best Indian food they have had - completely untrue to the point that we complained about the food so much the chef came out and spoke to us. He himself told us the food is catered for an English palette, and therefore not authentic Indian food. The food lacked any flavour and spice. Complete waste of money and will never return. I wanted to try this place because I liked the dum biryani restaurant, and so went with high expectations. I was left completely and utterly disappointed. I wouldn’t return even if they offered me a free meal.\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m\r\n    \e[1;39m]\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Amrutha Lounge\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"location\"\e[0m\e[1;39m: \e[0m\e[0;32m\"326 Garratt Lane Earlsfield, London SW18 4EJ England\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"description\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Innovative vegan dishes and heart-warming classics are lovingly prepared on the premises by our chefs on a daily basis. The food is made from scratch with an emphasis on taking simple ingredients and elevating them to extraordinary levels, that's our version of 'Vegan Soul Food'. You are welcome to Bring your own booze, and we don't charge any corkage fees... If you'd like to make a reservation please call us before 6pm.. As we will be too busy to answer phones during most evening services. Thank you..\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"image\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/restaurant/image/amrutha-lounge.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"reviews\"\e[0m\e[1;39m: \e[0m\e[1;39m[\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Leo\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"This restaurant has something very special about it. You can tell the food is prepared with love. I would go back time and time again.\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m,\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Katy\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Love these guys. So polite, take great pride in their food and it’s delicious. Earlsfield are lucky to have you!\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m\r\n    \e[1;39m]\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Federal Cafe & Bar\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"location\"\e[0m\e[1;39m: \e[0m\e[0;32m\"9 Nicholas Croft Northern Quarter, Manchester M4 1EY England\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"description\"\e[0m\e[1;39m: \e[0m\e[0;32m\"NZ/Australian Cafe/Restaurant in Manchester's Northern Quarter. Independently owned, serving Ozone coffee, speciality teas, delicious all day brunch, bagels and homemade cakes.\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"image\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/restaurant/image/federal-cafe-and-bar.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m4.25\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"reviews\"\e[0m\e[1;39m: \e[0m\e[1;39m[\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Toby\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m4\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Food was excellent, staff were very friendly and welcoming. Came for brunch with my girlfriend and will both be returning definitely.\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m,\r\n      \e[1;39m{\r\n        \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Chris\"\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"rating\"\e[0m\e[1;39m: \e[0m\e[0;39m4.5\e[0m\e[1;39m,\r\n        \e[0m\e[34;1m\"comment\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Excellent service, food is unreal, great prices, highly recommend!! The menu is very diverse and great catering for vegetarian options!\"\e[0m\e[1;39m\r\n      \e[1;39m}\e[0m\e[1;39m\r\n    \e[1;39m]\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m\r\n\e[1;39m]\e[0m\r\n"
+  - delay: 6
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express\a\e]1;..works/express\a\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster\e[0m\e[38;5;76m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:49\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1694
+    content: 'curl http://localhost:3000/data | jq'
+  - delay: 413
+    content: "\b \b"
+  - delay: 503
+    content: "\b \b"
+  - delay: 31
+    content: "\b"
+  - delay: 138
+    content: "\b \b"
+  - delay: 160
+    content: "\b"
+  - delay: 160
+    content: "\b \b"
+  - delay: 161
+    content: "\b \b"
+  - delay: 174
+    content: "\b \b"
+  - delay: 353
+    content: "\b \b"
+  - delay: 176
+    content: r
+  - delay: 65
+    content: e
+  - delay: 208
+    content: s
+  - delay: 191
+    content: t
+  - delay: 127
+    content: a
+  - delay: 193
+    content: u
+  - delay: 112
+    content: r
+  - delay: 95
+    content: a
+  - delay: 450
+    content: 'n'
+  - delay: 78
+    content: t
+  - delay: 480
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m curl http://localhost:3000/restaurant\e[K\e[?12l\e[?25h\r\r\n"
+  - delay: 5
+    content: "\e]2;curl http://localhost:3000/restaurant\a\e]1;curl\a"
+  - delay: 137
+    content: "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <!-- Meta and title -->\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <title>Restaurants!</title>\r\n\r\n    <!-- Bootstrap imports -->\r\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons\">\r\n    <link rel=\"stylesheet\"\r\n        href=\"https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css\"\r\n        integrity=\"sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX\" crossorigin=\"anonymous\">\r\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n    <!-- Custom css and js -->\r\n    <link rel=\"stylesheet\" href=\"./style/style.css\">\r\n    <script defer src=\"./js/fetch.js\"></script>\r\n    <script defer src=\"./js/render.js\"></script>\r\n    <script defer src=\"./js/main.js\"></script>\r\n</head>\r\n<body class=\"bg-info pb-5\">\r\n\r\n    <!-- Main container -->\r\n    <main class=\"container bg-light rounded mt-5 shadow pt-2\">\r\n        <h1 class=\"display-2 text-center\">restaurants</h1>\r\n        <hr class=\"hr-secondary\">\r\n\r\n        <!-- Where all restaurants are loaded -->\r\n        <article id=\"restaurants-view\" class=\"row\">\r\n            <div class=\"loader\"></div>\r\n        </article>\r\n    </main>\r\n\r\n    <!-- Optional JavaScript -->\r\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\r\n    <script\r\n        src=\"https://code.jquery.com/jquery-3.5.1.js\"\r\n        integrity=\"sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=\"\r\n        crossorigin=\"anonymous\"></script>\r\n    <script src=\"https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js\"\r\n        integrity=\"sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U\"\r\n        crossorigin=\"anonymous\"></script>\r\n    <script src=\"https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js\"\r\n        integrity=\"sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9\"\r\n        crossorigin=\"anonymous\"></script>\r\n    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>\r\n</body>\r\n</html>\e[32m\e[1mGET\e[22m\e[39m ✔️  \e[31m\e[1m200\e[22m\e[39m \e[37m/restaurant\e[39m \e[33m3.749 ms\e[39m\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express\a\e]1;..works/express\a"
+  - delay: 9
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[38;5;244m\e[38;5;244mmaster\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[30m \e[0m\e[30m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:55\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m"
+  - delay: 7
+    content: "\e[K\e[?1h\e=\e[?2004h\e[?25l"
+  - delay: 13
+    content: "\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster\e[0m\e[38;5;76m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:55\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?12l\e[?25h"
+  - delay: 3440
+    content: "\e[?2004l\r\r\nzsh: you have running jobs.\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                              \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/web_technologies_and_frameworks/express\a\e]1;..works/express\a"
+  - delay: 38
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mw\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mexpress\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster\e[0m\e[38;5;76m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m                            \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m≡\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m \e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;37m\e[0m\e[38;5;37m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 15:06:59\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 100
+    content: "\e[?2004l\r\r\nzsh: warning: 1 jobs SIGHUPed\r\n"
+  - delay: 9
+    content: "[1]  + 5380 hangup     ./build/express-restaurant-linux\r\n"

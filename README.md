@@ -10,7 +10,9 @@ And execute by using `npm start` or running any of the binaries which can be fou
 
 Here is a sample execution generated with [terminalizer](https://terminalizer.com/):
 
-<!--![Sample execution](./sample_execution.gif)-->
+![Sample execution](./sample-execution.gif)
+
+
 
 ## Motivation
 
@@ -21,6 +23,8 @@ The backend utilizes [**express**](https://www.npmjs.com/package/express) for th
 In [**logger.js**](./modules/logger.js), I format what will be shown and add colors to the text using [**chalk**](https://www.npmjs.com/package/chalk). I also added some emojis based on the status code :smile:.
 
 The [**index.js**](./index.js) has the main function. Which displays a welcome message using the [**welcomeMessage.js**](./modules/welcomeMessage.js) which uses [**figlet**](https://www.npmjs.com/package/figlet) to generate a ASCII text/art.
+
+![Restaurant Page](./restaurant-page.gif)
 
 ### frontend
 
